@@ -2010,6 +2010,8 @@ input, select, textarea {
 
 /* Icon */
 
+	
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2045,28 +2047,35 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+
 		.icon.major {
-			-moz-transform: rotate(-45deg);
+			/* -moz-transform: rotate(-45deg);
 			-webkit-transform: rotate(-45deg);
 			-ms-transform: rotate(-45deg);
-			transform: rotate(-45deg);
+			transform: rotate(-45deg); 
 			border-radius: 3px;
 			border: solid 2px #fff;
 			display: inline-block;
-			font-size: 1.35em;
 			height: calc(3em + 2px);
 			line-height: 3em;
-			text-align: center;
-			width: calc(3em + 2px);
+			text-align: center; */
+			/* /* width: calc(3em + 2px); */
+			display: grid;
+			grid-column-gap: 50px 50px;
 		}
 
 			.icon.major:before {
-				-moz-transform: rotate(45deg);
+				/* -moz-transform: rotate(45deg);
 				-webkit-transform: rotate(45deg);
 				-ms-transform: rotate(45deg);
 				transform: rotate(45deg);
-				display: inline-block;
-				font-size: 1.5em;
+				display: inline-block; */
+				/* font-size: 1.5em; */
+			}
+
+			i {
+				font-size: 60px;
+				/* margin: 2px; */
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2076,18 +2085,6 @@ input, select, textarea {
 				}
 
 			}
-
-		.icon.style1 {
-			color: #00ffcc;
-		}
-
-		.icon.style2 {
-			color: #00f0ff;
-		}
-
-		.icon.style3 {
-			color: #76ddff;
-		}
 
 /* Image */
 
@@ -2306,7 +2303,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 20px ;
 		}
 
 			ul.icons li:last-child {
@@ -2314,11 +2311,11 @@ input, select, textarea {
 			}
 
 		ul.icons.major {
-			padding: 1em 0;
+			/* padding: 1em 0; */
 		}
 
 			ul.icons.major li {
-				padding-right: 3.5em;
+				/* padding-right: 3.5em; */
 			}
 
 				@media screen and (max-width: 736px) {
