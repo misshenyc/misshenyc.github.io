@@ -8,10 +8,6 @@ I am made in 🇨🇳, and polished in 🇮🇱 🇺🇸 🇰🇷 🇬🇧 🇳�
 
 
 Credits:
-	skeleton: html5up.net | @ajlkn
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
+* skeleton: html5up.net | @ajlkn
+* Demo Images:Unsplash (unsplash.com)
+* Icons:Font Awesome (fontawesome.io)
